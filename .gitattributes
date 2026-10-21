@@ -1,0 +1,9 @@
+# Normalize text files to LF in the repository, regardless of what line
+# endings a given editor/OS/git client writes to the working tree, so
+# git clients with different core.autocrlf settings stop disagreeing
+# about whether CRLF-vs-LF counts as a change.
+* text=auto eol=lf
+
+# Explicitly binary -- never line-ending-normalized or diffed as text.
+*.png binary
+*.zip binary

@@ -1,0 +1,4 @@
+dist
+docs/*
+.render-tmp
+__pycache__
