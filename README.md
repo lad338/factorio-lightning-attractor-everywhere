@@ -1,4 +1,4 @@
-# factorio-f22
+# factorio-lightning-attractor-everywhere
 
 ## Overview
 
