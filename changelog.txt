@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-10-21
+  Major Features:
+    - Lightning attractors (lightning-rod, lightning-collector, and any other
+      mod's own lightning-attractor entities) can now be built on any planet,
+      not just ones with real lightning.
+    - On a planet without lightning, the building works as a night-only solar
+      panel instead, with randomized lightning-strike bursts and visuals; it
+      automatically swaps to the real lightning attractor if the planet's
+      lightning status ever changes, and back.
+    - Mining, blueprints, ghosts, and quality are all preserved -- the
+      building is always captured and rebuilt as the original item, no
+      matter which planet it was built on.
+    - Night-only output is balanced against vanilla's own solar panel:
+      lightning-rod averages 2x solar's per-tile output, lightning-collector
+      averages 4.5x the rod's own output.

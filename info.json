@@ -1,0 +1,14 @@
+{
+  "name": "lightning-attractor-everywhere",
+  "version": "0.1.0",
+  "title": "Lightning Attractor Everywhere",
+  "author": "lad338",
+  "homepage": "https://github.com/lad338/factorio-lightning-attractor-everywhere",
+  "description": "Lightning attractors can be placed on any planet. Off a lightning-capable planet, a night-only solar duplicate is built instead -- mined, blueprinted, and rebuilt as the original everywhere.",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-age >= 2.1.0"
+  ],
+  "expansion_required": true
+}
